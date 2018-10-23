@@ -1,0 +1,18 @@
+html, body {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+
+.container {  
+  @media (min-width: 1140px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}

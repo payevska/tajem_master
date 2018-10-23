@@ -1,3 +1,221 @@
+@font-face {
+  font-family: 'HammersmithOne-Regular';
+  src: url("../fonts/HammersmithOne-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Black';
+  src: url("../fonts/PlayfairDisplay-Black.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-BlackItalic';
+  src: url("../fonts/PlayfairDisplay-BlackItalic.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  src: url("../fonts/PlayfairDisplay-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-BoldItalic';
+  src: url("../fonts/PlayfairDisplay-BoldItalic.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url("../fonts/PlayfairDisplay-Italic.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url("../fonts/PlayfairDisplay-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url("../fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url("../fonts/Roboto-BlackItalic.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url("../fonts/Roboto-BoldItalic.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("../fonts/Roboto-Italic.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../fonts/Roboto-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url("../fonts/Roboto-LightItalic.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Roboto-MediumItalic';
+  src: url("../fonts/Roboto-MediumItalic.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Roboto-ThinItalic';
+  src: url("../fonts/Roboto-ThinItalic.ttf");
+  font-style: normal;
+  font-weight: 200;
+}
+html, body {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
+}
 
+@media (min-width: 1140px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.section-1 {
+  background-image: url(../img/section-1.png);
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 165px;
+  margin-top: 15px;
+}
+
+.menu-li {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto-Black';
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.header__logotype {
+  font-family: 'Roboto-Thin';
+  font-size: 30px;
+  font-weight: 200;
+  color: #00e0d0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+}
+
+.nav-menu {
+  padding-right: 0;
+}
+
+.nav-menu__menu-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.general-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.general-page__title-text {
+  font-family: 'PlayfairDisplay-Black';
+  font-weight: 800;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+.general-page__line-text {
+  width: 50px;
+  border-bottom: 1px solid #00e0d0;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.general-page__text-page {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+/* -------- fonts -------- */
+/* -------- colors -------- */
+/* -------- variables -------- */
+/* -------- section-1 -------- */
+/* -------- section-2 -------- */
+/* -------- section-3 -------- */
+/* -------- section-4 -------- */
+/* -------- section-5 -------- */
+/* -------- section-6 -------- */
+/* -------- section-7 -------- */
+/* -------- footer -------- */
 
 /*# sourceMappingURL=style.css.map */
