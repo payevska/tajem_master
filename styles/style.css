@@ -135,15 +135,36 @@ html, body {
   background-size: cover;
 }
 
-.header {
+.main__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 165px;
+  padding-bottom: 155px;
   margin-top: 15px;
 }
+.main__header_logotype {
+  font-family: 'Roboto-Thin';
+  font-size: 30px;
+  font-weight: 200;
+  color: #00e0d0;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+.main__header_logotype_logo-text {
+  padding-left: 10px;
+}
+.main__header_nav-menu {
+  padding-right: 0;
+}
 
-.menu-li {
+.menu-ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-left: 7px;
+}
+.menu-ul__menu-li {
   display: flex;
   justify-content: space-between;
   font-family: 'Roboto-Black';
@@ -153,57 +174,67 @@ html, body {
   list-style: none;
 }
 
-.header__logotype {
-  font-family: 'Roboto-Thin';
-  font-size: 30px;
-  font-weight: 200;
-  color: #00e0d0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 0;
-}
-
-.nav-menu {
-  padding-right: 0;
-}
-
-.nav-menu__menu-ul {
-  display: flex;
-  justify-content: space-between;
-}
-
 .general-page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-left: 0;
+  padding-right: 0;
 }
-
-.general-page__title-text {
+.general-page__title-big {
   font-family: 'PlayfairDisplay-Black';
   font-weight: 800;
   font-size: 32px;
+  line-height: 40px;
   margin-top: 0;
   margin-bottom: 0;
   color: #FFFFFF;
 }
-
-.general-page__line-text {
+.general-page__lines {
   width: 50px;
   border-bottom: 1px solid #00e0d0;
-  margin-top: 27px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
-
 .general-page__text-page {
   font-family: 'Roboto-Light';
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
-  margin-bottom: 50px;
+  letter-spacing: 0.8px;
+}
+
+.string-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.string-3 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 45px;
+}
+
+.buttons {
+  padding: 11px 15px;
+  font-family: 'HammersmithOne-Regular';
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #00e0d0;
+  text-transform: uppercase;
+  color: #00e0d0;
+  margin-bottom: 122px;
+}
+
+.slider-use {
+  display: flex;
+  width: 8%;
+  justify-content: space-around;
+  margin-bottom: 65px;
 }
 
 /* -------- fonts -------- */
